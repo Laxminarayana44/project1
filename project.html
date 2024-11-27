@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter and Travel Guide</title>
+  <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">World Currency Converter</h1>
+    
+    <div class="currency-converter">
+      <h2>Convert Your Currency</h2>
+      <div class="currency-form">
+        <input type="number" id="amount" placeholder="Amount in INR" class="input-field">
+        
+        <select id="currencyFrom" class="select-field">
+          <option value="INR">Indian Rupee (INR)</option>
+          <option value="USD">US Dollar (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">Pound (GBP)</option>
+          <!-- Add more currencies as needed -->
+        </select>
+
+        <span class="arrow">➡</span>
+
+        <select id="currencyTo" class="select-field">
+          <option value="USD">US Dollar (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">Pound (GBP)</option>
+          <option value="INR">Indian Rupee (INR)</option>
+          <!-- Add more currencies as needed -->
+        </select>
+
+        <button onclick="convertCurrency()" class="convert-btn">Convert</button>
+
+        <h3 id="result"></h3>
+      </div>
+    </div>
+
+    <div class="travel-guide">
+      <h2>Travel Roadmap</h2>
+      <ul>
+        <li><strong>Step 1:</strong> Choose your destination.</li>
+        <li><strong>Step 2:</strong> Pack your essentials (passport, tickets, etc.).</li>
+        <li><strong>Step 3:</strong> Check your travel documents.</li>
+        <li><strong>Step 4:</strong> Book your flights or transport.</li>
+        <li><strong>Step 5:</strong> Enjoy your journey and explore the local culture!</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p class="greeting">Wishing you a wonderful journey ahead! Safe travels!</p>
+    </footer>
+  </div>
+
+  <script src="pro.js"></script>
+</body>
+</html>

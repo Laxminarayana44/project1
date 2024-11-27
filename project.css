@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #005a7d;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .currency-converter, .travel-guide {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .currency-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-field, .select-field {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+  }
+  
+  .convert-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #005a7d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .convert-btn:hover {
+    background-color: #003f5f;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #28a745;
+  }
+  
+  .travel-guide ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .travel-guide li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .greeting {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
